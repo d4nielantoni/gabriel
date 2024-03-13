@@ -31,11 +31,11 @@ header h2{
     height: 50px;
 }
 main{
-    height: 100vh;
+    height: 90vh;
     background-attachment: fixed;
     background-image: url(../assets/img/gabriel\ roxo.jpeg);
     background-size:cover ;
-    background-position: 20px;
+    background-position: center 0px;
 }
 
 aside {
@@ -77,10 +77,10 @@ footer {
     clear: both;
     background-color: hsl(0, 0%, 86%);
     background-image: url(../assets/img/gabriel\ dente.jpeg);
-    background-size: cover;
+    background-size:cover;
     text-align: center;
     padding: 25px;
-    height: 100vh;
+    height: 90vh;
 }
 
 @media screen and (max-width: 600px) {
