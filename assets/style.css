@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+header {
+    
+    background-image: url(./img/coffee.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 25px;
+    height: 100vh;
+}
+header h2{
+    color: white;
+    text-shadow: 1px 1px;
+}
+
+.author {
+    text-align: right;
+    color: white;
+}
+
+.navbar {
+    background-color: hsl(0, 0%, 15%);
+    height: 50px;
+}
+main{
+    height: 100vh;
+    background-attachment: fixed;
+    background-image: url(./img/gabriel\ roxo.jpeg);
+    background-size:cover ;
+    background-position: 20px;
+}
+
+aside {
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+aside p{
+    background-color: #39163c9a;
+    color: white;
+}
+aside h3{
+    background-color: chocolate;
+}
+
+
+section {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+section p{
+    background-color: #39163c9a;
+    color: white;
+}
+
+article {
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+article p{
+    background-color: #39163c9a;
+    color: white;
+}
+
+footer {
+    display: block;
+    clear: both;
+    background-color: hsl(0, 0%, 86%);
+    background-image: url(../assets/img/gabriel\ dente.jpeg);
+    background-size: cover;
+    text-align: center;
+    padding: 25px;
+    height: 100vh;
+}
+
+@media screen and (max-width: 600px) {
+
+    /*Responsive design */
+    aside,
+    section,
+    article {
+        width: 100%;
+    }
+}
