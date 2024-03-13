@@ -33,7 +33,7 @@ header h2{
 main{
     height: 100vh;
     background-attachment: fixed;
-    background-image: url(./img/gabriel\ roxo.jpeg);
+    background-image: url(../assets/img/gabriel\ roxo.jpeg);
     background-size:cover ;
     background-position: 20px;
 }
