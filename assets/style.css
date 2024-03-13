@@ -31,11 +31,12 @@ header h2{
     height: 50px;
 }
 main{
+    display: block;
     height: 90vh;
     background-attachment: fixed;
     background-image: url(../assets/img/gabriel\ roxo.jpeg);
     background-size:cover ;
-    background-position: center 0px;
+    background-position: center ;
 }
 
 aside {
@@ -78,6 +79,7 @@ footer {
     background-color: hsl(0, 0%, 86%);
     background-image: url(../assets/img/gabriel\ dente.jpeg);
     background-size:cover;
+    background-position: center;
     text-align: center;
     padding: 25px;
     height: 90vh;
